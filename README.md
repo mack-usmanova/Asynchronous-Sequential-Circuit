@@ -19,30 +19,6 @@ Asynchronous sequential circuit in VHDL with a critical race‑free state assign
 - Breadboard schematic + hardware photos confirming stable states
 
 ---
-
-## Suggested folder layout
-
-```
-.
-├─ src/
-│  └─ reducedstate.vhd
-├─ constraints/
-│  └─ reducedstate.xdc
-├─ sim/
-│  └─ reducedstate_forces.tcl
-├─ assets/
-│  ├─ race_free_assignment_and_kmaps.png
-│  ├─ postroute_sim_and_breadboard_schematic.png
-│  ├─ vivado_project_summary.png
-│  ├─ hardware_state_a.png
-│  ├─ hardware_state_b.png
-│  ├─ hardware_state_c.png
-│  ├─ hardware_state_d.png
-│  └─ hardware_state_e.png
-└─ report/
-   └─ ECE 4525 lab 10 report.pdf
-```
-
 ---
 
 ## Design overview
